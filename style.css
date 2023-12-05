@@ -1,0 +1,33 @@
+html {
+  background-color: lightslategrey;
+}
+
+body {
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 100px auto;
+  width: 900px;
+}
+
+h1,
+h2 {
+  font-family: monospace;
+  letter-spacing: 5px;
+}
+
+.blue {
+  color: #00ffff;
+}
+
+.crimson {
+  color: #d4163c;
+}
+
+.yellow {
+  color: #ffd700;
+}
+
+a:hover {
+  font-weight: bold;
+}

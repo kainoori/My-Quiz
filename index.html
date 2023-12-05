@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <h1>Real Madrid Quiz</h1>
+    <p>Answer the 4 questions below correctly.</p>
+    <hr />
+
+    <p>1. How many UCLs did Real Madrid win altogether?</p>
+    <img
+      src="img/real-madrid-v-liverpool-uefa-champions-league-final-1.png"
+      alt="UCLs"
+      width="750"
+    />
+    <p><input id="question1-in" type="text" /></p>
+    <div id="key">
+      <p class="result1"></p>
+    </div>
+    <hr />
+
+    <p>2. What league is Real Madrid currently in?</p>
+    <img src="img/download.png" alt="league" width="300" />
+    <p><input id="question2-in" type="text" /></p>
+    <div id="key2">
+      <p class="result2"></p>
+    </div>
+    <hr />
+    <p>3. Who was the best player on Real Madrid?</p>
+    <img src="img/images.png" alt="player" width="250" />
+    <p><input id="question3-in" type="text" /></p>
+    <div id="key3">
+      <p class="result3"></p>
+    </div>
+    <hr />
+    <p>
+      4. What Team Was Cristiano Ronaldo On Before He Transferred To Real Madrid
+      In 2009?
+    </p>
+    <img src="img/download (1).png" alt="Club" width="600" />
+    <p><input id="question4-in" type="text" /></p>
+    <div id="key4">
+      <p class="result4"></p>
+    </div>
+
+    <button id="btn">Submit</button>
+
+    <p>
+      Your Score: <span id="correct-out">---</span>/4 (<span id="percentage-out"
+        >---</span
+      >%)
+    </p>
+
+    <div id="feedback">
+      <p class="message"></p>
+    </div>
+  </body>
+</html>
